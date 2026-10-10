@@ -4,7 +4,7 @@
 
 | Задание | Сайт |
 |---|---|
-| Дом Наркомфина | [открыть](https://michaelkuzmenko1.github.io/html-css-preview/narkomfin/) |
+| Дом Наркомфина | [открыть](https://michaelkuzmenko1.github.io/html-css-preview/narcomfin/) |
 | Навигация Apple | в работе |
 | Бенто | в работе |
 | Вакансии | [открыть](https://michaelkuzmenko1.github.io/html-css-preview/vacancies/) |
