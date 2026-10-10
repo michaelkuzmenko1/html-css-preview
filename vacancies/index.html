@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mattee — вакансии</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header container">
+    <p class="logo">mattee</p>
+    <nav class="header_nav">
+      <a class="header_link" href="#">Вакансии</a>
+      <a class="header_link" href="#">Работодателям</a>
+    </nav>
+    <a class="button button-blue" href="#">Опубликовать</a>
+  </header>
+
+  <main class="container">
+    <section class="banner">
+      <h1 class="banner_title">Больше вакансий<br>в telegram-канале</h1>
+      <a class="button button-black" href="#">Перейти в ТГ канал</a>
+    </section>
+
+    <div class="content">
+      <aside class="filters">
+        <label class="search">
+          <img class="search_icon" src="assets/icons/iconsearch.png" alt="">
+          <input class="search_input" type="text" placeholder="Поиск">
+        </label>
+
+        <div class="filters_group">
+          <h2 class="filters_title">Формат</h2>
+          <div class="filters_chips">
+            <span class="chip">Парт-тайм</span>
+            <span class="chip">Фулл-тайм</span>
+            <span class="chip">Стажировка</span>
+          </div>
+        </div>
+
+        <div class="filters_group">
+          <h2 class="filters_title">Формат</h2>
+          <div class="filters_chips">
+            <span class="chip">Офис</span>
+            <span class="chip">Удаленно</span>
+            <span class="chip">Гибрид</span>
+          </div>
+        </div>
+
+        <div class="filters_group">
+          <h2 class="filters_title">Грейд</h2>
+          <div class="filters_chips">
+            <span class="chip">Junior</span>
+            <span class="chip">Middle</span>
+            <span class="chip">Senior</span>
+            <span class="chip">Lead</span>
+            <span class="chip">Head</span>
+          </div>
+        </div>
+
+        <div class="filters_group">
+          <h2 class="filters_title">Локация</h2>
+          <div class="filters_cities">
+            <label class="checkbox">
+              <span>Москва</span>
+              <input class="checkbox_input" type="checkbox" name="city">
+              <span class="checkbox_box"></span>
+            </label>
+            <label class="checkbox">
+              <span>Санкт-Петербург</span>
+              <input class="checkbox_input" type="checkbox" name="city">
+              <span class="checkbox_box"></span>
+            </label>
+            <label class="checkbox">
+              <span>Казань</span>
+              <input class="checkbox_input" type="checkbox" name="city">
+              <span class="checkbox_box"></span>
+            </label>
+            <label class="checkbox">
+              <span>Нижний Новгород</span>
+              <input class="checkbox_input" type="checkbox" name="city">
+              <span class="checkbox_box"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filters_group">
+          <h2 class="filters_title">Зарплата</h2>
+          <div class="filters_salary">
+            <input class="field" type="text" placeholder="Минимум">
+            <input class="field" type="text" placeholder="Максимум">
+          </div>
+        </div>
+      </aside>
+
+      <section class="vacancies">
+        <article class="card">
+          <span class="card_badge">новая</span>
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Художник концепт-арта</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="card_badge">новая</span>
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Apple</span>
+          </div>
+          <h3 class="card_title">UI/UX Дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">ВТБ</span>
+          </div>
+          <h3 class="card_title">Графический дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Промышленный дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Apple</span>
+          </div>
+          <h3 class="card_title">Диджитал дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">ВТБ</span>
+          </div>
+          <h3 class="card_title">Художник концепт-арта</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Промышленный дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Промышленный дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Промышленный дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">Т-Банк</span>
+          </div>
+          <h3 class="card_title">Промышленный дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">ВТБ</span>
+          </div>
+          <h3 class="card_title">Графический дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card_company">
+            <img class="card_logo" src="assets/icons/icontbank.jpeg" alt="">
+            <span class="card_company-name">ВТБ</span>
+          </div>
+          <h3 class="card_title">Графический дизайнер</h3>
+          <div class="card_location">
+            <img class="card_geomark" src="assets/icons/geomark.jpeg" alt="">
+            <span>Москва, формат работы</span>
+          </div>
+          <div class="card_tags">
+            <span class="tag">280 000 ₽</span>
+            <span class="tag">Фулл-тайм</span>
+            <span class="tag">Junior</span>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div class="bottom-box container">
+    <div class="bottom-box_inner">
+      <a class="button button-blue" href="#">Опубликовать вакансию</a>
+      <ul class="bottom-box_list">
+        <li class="bottom-box_item">Вакансии</li>
+        <li class="bottom-box_item">Работодателям</li>
+        <li class="bottom-box_item">Telegram</li>
+        <li class="bottom-box_item">Техподдержка</li>
+      </ul>
+      <p class="bottom-box_logo">mattee</p>
+      <p class="bottom-box_copy">© 2025</p>
+    </div>
+  </div>
+</body>
+</html>
